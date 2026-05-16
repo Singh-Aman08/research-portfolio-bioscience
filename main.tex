@@ -23,6 +23,7 @@ University of Bristol}
 
 \begin{abstract}
 Provide a concise overview of the research problem, the identified gap, the proposed methodological direction, and the expected impact of the project.
+
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -30,7 +31,8 @@ keyword1, keyword2, ..
 \end{IEEEkeywords}
 
 \section{Introduction}
-\footnote {GitHub link: \url{http:\\}}
+\footnote{GitHub link: \url{https://github.com/UoB-DSMP2026/research-portfolio-fp25098}}
+
 
 
 \section{Literature Review}
@@ -44,9 +46,27 @@ Zhang et al. \cite{zhang_integrative_2025} employ ComBat, while Kioroglou et al.
 At the downstream analysis stage, deep learning-based approaches constitute a second major methodological cluster in multi-omics research. Architectures such as ANNs, GNNs, GCNs, and transformer-based models are widely employed to capture complex nonlinear relationships and often outperform traditional machine learning methods in predictive tasks\cite{sartori_comprehensive_2025}. However, despite these performance gains, such models remain inherently black-box, offering limited feature-level interpretability and biological insight, thereby constraining their clinical applicability \cite{kang_roadmap_2022}. For example, Wu et al. \cite{wu_deepmoic_2024} demonstrate superior performance with DeepMoIC over classical classifiers such as SVM, Random Forest, and KNN, yet fail to provide clear attribution of the molecular features driving the model's predictions, limiting its biological relevance. Although post-hoc Explainable AI (XAI) frameworks, including SHAP, LIME, and Integrated Gradients, have been introduced to extract feature-level importance from such complex models, their adoption in multi-omics studies remains limited, and they provide only approximate explanations that do not fully resolve the inherent opacity of deep learning models \cite{noauthor_full_nodate}.\\
 This limitation is further amplified by the HDLSS nature of multi-omics data. Deep learning models, which are inherently data-intensive, are prone to overfitting in such settings, leading to reduced generalisability \cite{kang_roadmap_2022}. In contrast, traditional machine learning methods—particularly ensemble approaches such as XGBoost and Random Forest—demonstrate greater robustness and provide inherent feature importance measures that enhance interpretability. Empirical comparisons reinforce this distinction: Wang et al. \cite{wang_mogonet_2021} demonstrate that XGBoost outperforms their proposed deep learning model, MOGONET, on certain datasets and achieves comparable performance on others, while Hong et al. \cite{hong_multi-omics_2025} show that LightGBMXT achieves superior predictive performance (AUC = 0.9727) compared to multiple deep learning architectures. These findings challenge the implicit assumption that deep learning is universally superior, instead suggesting that simpler models may be more appropriate in HDLSS settings.\\
 Another persistent and largely unresolved challenge is the lack of generalisability and robustness of proposed models. Although several studies report high predictive performance, these results are often derived from limited validation strategies, including single-cohort analyses and insufficient cross-validation \cite{shakyawar_icluf_nodate, kioroglou_multi-omic_2025, gillenwater_multi-omics_2021}. For example, Kioroglou et al.  demonstrate the potential of multi-omics profiling but restrict their analysis to a single cohort without external validation, limiting its generalisability \cite{kioroglou_multi-omic_2025}. Similarly, Hong et al. despite reporting high performance, rely on a small dataset with a simple hold-out validation strategy, raising concerns regarding overfitting and optimistic bias \cite{hong_multi-omics_2025}. Furthermore, the lack of functional validation of identified biomarkers and limited integration across diverse omics layers undermine reproducibility and biological credibility.\\
+More rigorous validation strategies provide partial solutions. Benkirane et al., for instance, evaluate their framework across multiple independent datasets, demonstrating improved robustness \cite{benkirane_customics_2023}. Similarly, Wu et al. validate their framework, DeepMoIC, across multiple TCGA cohorts (e.g., BRCA, LGG, KIPAN), offering broader evaluation \cite{wu_deepmoic_2024}. However, even such approaches remain limited, as validation within a single data repository (e.g., TCGA) may not capture real-world heterogeneity due to shared batch effects, population biases, and experimental protocols. Thus, while multi-cohort validation represents progress, it does not fully resolve the challenge of generalisability.\\
+Collectively, these findings reveal a critical disconnect in current multi-omics research. While advances in integration and predictive modelling have improved performance, they are not matched by equivalent progress in interpretability and rigorous validation. This imbalance limits clinical translatability, as effective personalised medicine requires not only accurate predictions but also biologically interpretable and reproducible insights. Addressing these interconnected limitations—particularly the trade-offs between performance, interpretability, and generalisability—remains a central challenge and defines a clear research gap for future work.
+\section {Research Gap and Objectives}
+Despite substantial progress in multi-omics integration, current approaches exhibit a fundamental imbalance between predictive performance, interpretability, and generalisability. As identified in the preceding literature, many frameworks achieve high accuracy but rely on complex latent representation learning methods that fail to retain explicit feature-level information, thereby limiting biological interpretability. This issue is further compounded by inadequate preprocessing strategies, particularly the omission of robust batch effect correction and systematic handling of missing data, which introduces technical bias and compromises downstream validity.\\
+Moreover, the high-dimensional, low sample size (HDLSS) nature of multi-omics data poses significant challenges for model robustness. Deep learning-based approaches, while powerful in capturing nonlinear relationships, are prone to overfitting and often lack transparency, restricting their clinical applicability. In parallel, although traditional machine learning methods offer improved interpretability and robustness, they are not consistently leveraged within integrative frameworks.\\
+A further limitation lies in the evaluation of existing models, where performance is frequently assessed using limited validation strategies, such as single-cohort analyses or simple hold-out splits. The lack of rigorous external validation across heterogeneous datasets raises concerns regarding generalisability and reproducibility. Consequently, there exists a clear need for a unified multi-omics integration framework that systematically addresses preprocessing deficiencies, balances predictive performance with interpretability, and ensures robust validation for clinically meaningful biomarker discovery.\\
+\textbf{Research Question:} 
+How can multi-omics integration frameworks be designed to ensure robust preprocessing, preserve feature-level interpretability, and achieve generalisable predictive performance for clinically meaningful biomarker discovery?
 
+\textbf{Objectives:}
+\begin{itemize}
+    \item Develop a robust preprocessing pipeline incorporating standardisation, missing data imputation, and batch effect correction to minimise technical variability across multi-omics datasets.
+    \item Implement interpretable dimensionality reduction and integration strategies that retain feature-level contributions while effectively reducing data complexity.
+    \item Design a predictive modelling framework integrating multi-omics data, complemented by explainability techniques (e.g., SHAP) to identify biologically meaningful features driving predictions.
+    \item Evaluate the proposed framework using rigorous validation strategies, including cross-validation and testing on independent or heterogeneous datasets, to ensure robustness and generalisability.
+\end{itemize}
 
 \section{Proposed Methodology}
+
+
+
 \section{Data, Ethics, and Practical Considerations}
 \section{Project plan}
 \section{Non-Technical Summary}
