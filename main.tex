@@ -81,8 +81,18 @@ In contrast to prior studies with limited preprocessing and validation, the fram
 Model performance is evaluated using AUC-ROC for class discrimination, F1-score, precision, and recall to account for class imbalance, accuracy for overall performance, and log-loss for probabilistic calibration. Statistical significance is assessed using DeLong’s and Wilcoxon signed-rank tests. The structural quality of learned representations is evaluated using Silhouette score and Davies–Bouldin Index (DBI), while biological validity is confirmed through GSEA and KEGG enrichment with FDR correction, ensuring clinically meaningful and functionally relevant findings.
 
 
+
 \section{Data, Ethics, and Practical Considerations}
 \section{Project plan}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.0\linewidth]{Gantt Chart1.png}
+    \caption{Your caption here}
+    \label{fig:Gantt Chart1}
+\end{figure}
+The project is organised as a sequential and interdependent pipeline to ensure technical feasibility. It begins with Dataset Collection and Cohort Selection, where multi-omics datasets are gathered from repositories such as TCGA, ICGC, and GEO. This is followed by Data Normalisation and Imputation and Batch Effect Correction, where modality-specific scaling, missing value handling, and correction methods (e.g., ComBat, limma) are applied to remove technical variability and ensure data consistency. The cleaned datasets are then combined in Horizontal Data Integration to increase sample size and mitigate the HDLSS problem, after which Feature Selection is performed using variance-based methods (e.g., MAD, CV) to retain the most informative features.
+
+The refined data is subsequently used in Multi-Omics Integration and Dimensionality Reduction, where methods such as MOFA+ or Joint NMF generate a compact latent representation capturing shared biological structure. This representation feeds into Model Development and Benchmarking, where baseline, machine learning, ensemble, and deep learning models are trained and compared. The models are then assessed in Model Validation and Statistical Evaluation using LOCO and external validation strategies alongside performance metrics and statistical tests to ensure robustness. Finally, Interpretability, Biological Validation, and Reporting are conducted using SHAP-based explanations, visualisation techniques, and pathway enrichment analyses (GSEA, KEGG) to derive biologically meaningful insights. Each stage builds on the previous one, with clear dependencies and milestones, ensuring a coherent and achievable workflow within the project timeframe. 
 \section{Non-Technical Summary}
 
 \bibliographystyle{IEEEtran}
