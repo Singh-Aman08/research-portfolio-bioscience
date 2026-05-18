@@ -53,21 +53,19 @@ and predictive modelling have improved performance, but these advances are not m
 and defines a clear research gap for future work.
 
 
-
-
 \section {Research Gap and Objectives}
-Despite substantial progress in multi-omics integration, current approaches exhibit a fundamental imbalance between predictive performance, interpretability, and generalisability. As identified in the preceding literature, many frameworks achieve high accuracy but rely on complex latent representation learning methods that fail to retain explicit feature-level information, thereby limiting biological interpretability. This issue is further compounded by inadequate preprocessing strategies, particularly the omission of robust batch effect correction and systematic handling of missing data, which introduces technical bias and compromises downstream validity.\\
+Current multi-omic integration approaches exhibit a fundamental imbalance between predictive performance, interpretability, robustness and generalisability in spite of substantial progress in multi-omics integration. As identified in the preceding literature review, many frameworks achieve high accuracy but rely on complex latent representation learning methods that fail to retain explicit feature-level information, thus limiting biological interpretability. This issue is further compounded by inadequate preprocessing strategies, particularly the omission of robust batch effect correction and systematic handling of missing data, which introduces technical bias and compromises downstream validity.\\
 Moreover, the high-dimensional, low sample size (HDLSS) nature of multi-omics data poses significant challenges for model robustness. Deep learning-based approaches, while powerful in capturing nonlinear relationships, are prone to overfitting and often lack transparency, restricting their clinical applicability. In parallel, although traditional machine learning methods offer improved interpretability and robustness, they are not consistently leveraged within integrative frameworks.\\
-A further limitation lies in the evaluation of existing models, where performance is frequently assessed using limited validation strategies, such as single-cohort analyses or simple hold-out splits. The lack of rigorous external validation across heterogeneous datasets raises concerns regarding generalisability and reproducibility. Consequently, there exists a clear need for a unified multi-omics integration framework that systematically addresses preprocessing deficiencies, balances predictive performance with interpretability, and ensures robust validation for clinically meaningful biomarker discovery.\\
+A further limitation lies in the evaluation of existing models, where performance is frequently assessed using limited validation strategies, such as single-cohort analyses or simple hold-out splits. The lack of rigorous external validation across heterogeneous datasets raises concerns regarding generalisability and robustness. Consequently, there exists a clear need for a unified multi-omics integration framework that systematically addresses preprocessing deficiencies, balances predictive performance with interpretability, and ensures robust validation for clinically meaningful biomarker discovery.\\
 \textbf{Research Question:} 
-How can multi-omics integration frameworks be designed to ensure robust preprocessing, preserve feature-level interpretability, and achieve generalisable predictive performance for clinically meaningful biomarker discovery?
+How can a multi-omics integration framework be designed to improve predictive performance, interpretability, and robustness by implementing standardised preprocessing and be empirically validated across multiple independent cohorts for clinically relevant biomarker discovery?
 
 \textbf{Objectives:}
 \begin{itemize}
     \item Develop a robust preprocessing pipeline incorporating standardisation, missing data imputation, and batch effect correction to minimise technical variability across multi-omics datasets.
     \item Implement interpretable dimensionality reduction and integration strategies that retain feature-level contributions while effectively reducing data complexity.
-    \item Design a predictive modelling framework integrating multi-omics data, complemented by explainability techniques (e.g., SHAP) to identify biologically meaningful features driving predictions.
-    \item Evaluate the proposed framework using rigorous validation strategies, including cross-validation and testing on independent or heterogeneous datasets, to ensure robustness and generalisability.
+    \item Design a predictive multi-omics modelling framework that integrates both deep learning and traditional machine learning approaches, alongside explainability methods (e.g., SHAP), to improve interpretability and identify biologically meaningful predictive features.
+    \item Evaluate the proposed framework using rigorous validation strategies, including cross-validation and external validation on independent, heterogeneous datasets, to ensure robustness, generalisability, and real-world applicability.
 \end{itemize}
 
 \section{Proposed Methodology}
