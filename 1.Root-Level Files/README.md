@@ -3,7 +3,7 @@
 **Title:** *A Robust and Interpretable Pan-Cancer Multi-Omics Integration Framework for Generalisable Biomarker Discovery*  
 
 **Student Information:**  
-- Name: Aman Kumar Sinh  
+- Name: Aman Kumar Singh  
 - Programme: MSc Data Science  
 - Username: fp25098  
 
