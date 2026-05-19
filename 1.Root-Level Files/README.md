@@ -37,7 +37,7 @@ Includes project planning and management resources:
 
 ### 4. Research Evidence Folder  
 Contains supporting materials used during the research process:  
-- `Literature_Review_Notes.xlsx` – Summary of reviewed papers  
+- `Literature_Review.xlsx` – Summary of reviewed papers  
 - `Method_Flow_Chart.png` – Proposed methodology diagram  
 - `Review Paper Notes.pdf` – Notes from key research papers  
 
