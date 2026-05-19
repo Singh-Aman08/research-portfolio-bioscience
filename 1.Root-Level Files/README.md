@@ -8,7 +8,7 @@
 - Username: fp25098  
 
 **Research Theme:** Theme 3 – Data Science for Bioscience  
-**Topic:** Topic 1 – Multi-Omics Integration for Personalised Medicine  
+**Topic:** Topic 1 – Multi-Omics Integration for target prediction
 
 This project focuses on designing a robust and interpretable computational framework for integrating multi-omics data in a pan-cancer setting. The study addresses key challenges in current approaches, including the curse of dimensionality, lack of feature-level interpretability, and limited generalisability due to inadequate validation strategies.  
 
