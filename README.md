@@ -105,7 +105,7 @@ The repository is organised to include the research proposal, documentation, pla
     ├── Method_Flow_Chart.png              # Proposed research methodology diagram
     └── Review_Paper_Notes.pdf             # Notes from key research papers
 ```
-## Tools and Technologies
+## Tools
 
 The following tools were used throughout the research project for literature analysis, planning, methodology design, and report preparation.
 
