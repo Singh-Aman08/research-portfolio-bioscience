@@ -116,3 +116,8 @@ The following tools were used throughout the research project for literature ana
 - Microsoft Excel → Literature review organisation and analysis
 - AI Tools       → Language refinement and writing assistance
 ```
+## Author
+
+**Aman Kumar Singh**  
+MSc Data Science  
+University of Bristol
