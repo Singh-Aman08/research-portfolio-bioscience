@@ -87,8 +87,6 @@ This repository represents a research proposal and planned methodology developed
 
 The repository is organised to include the research proposal, documentation, planning resources, and supporting evidence developed throughout the project.
 
-## Repository Structure
-
 ```text
 ├── LaTeX_Source/                          # LaTeX files used for report preparation
 │   ├── IEEEtran.cls                       # IEEE document class file
