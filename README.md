@@ -75,3 +75,10 @@ Explainable AI techniques will be incorporated to improve transparency and ident
 - Pathway analysis using approaches such as GSEA and KEGG enrichment will be explored to validate biological relevance.
 
 ---
+## Conclusion
+
+This research portfolio presents a proposed framework for developing a robust and interpretable pan-cancer multi-omics integration approach for biomarker discovery. Through a critical review of existing literature, the project identifies key challenges in current approaches, including limited interpretability, high-dimensional biological data complexity, batch effects, and insufficient validation across independent cohorts.
+
+The proposed methodology aims to address these challenges by combining rigorous preprocessing strategies, interpretable multi-omics integration methods, machine learning and deep learning models, explainable AI techniques, and robust validation frameworks. By balancing predictive performance with biological transparency and generalisability, the framework provides a foundation for developing more reliable computational approaches for precision medicine.
+
+This repository represents a research proposal and planned methodology developed as part of a structured research project. Future work will involve implementing the proposed framework on real pan-cancer multi-omics datasets, evaluating model performance, and investigating biologically meaningful biomarkers through computational and pathway-level analysis.
