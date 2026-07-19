@@ -104,3 +104,15 @@ The repository is organised to include the research proposal, documentation, pla
     ├── Literature_Review.xlsx             # Summary of reviewed literature
     ├── Method_Flow_Chart.png              # Proposed research methodology diagram
     └── Review_Paper_Notes.pdf             # Notes from key research papers
+```
+## Tools and Technologies
+
+The following tools were used throughout the research project for literature analysis, planning, methodology design, and report preparation.
+
+```text
+- Overleaf        → LaTeX-based research report preparation
+- Trello          → Project planning and task management
+- Draw.io         → Research methodology and workflow visualisation
+- Microsoft Excel → Literature review organisation and analysis
+- AI Tools       → Language refinement and writing assistance
+```
