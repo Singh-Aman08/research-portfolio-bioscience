@@ -87,9 +87,10 @@ This repository represents a research proposal and planned methodology developed
 
 The repository is organised to include the research proposal, documentation, planning resources, and supporting evidence developed throughout the project.
 
+## Repository Structure
+
 ```text
-├── README.md                              # Project overview and documentation
-├── SEMTM0045_Theme3_Topic1_fp25098.pdf    # Final research portfolio submission
+├── research_portfolio.pdf                 # Final research portfolio submission
 │
 ├── LaTeX_Source/                          # LaTeX files used for report preparation
 │   ├── IEEEtran.cls                       # IEEE document class file
@@ -97,13 +98,15 @@ The repository is organised to include the research proposal, documentation, pla
 │   └── references.bib                     # Bibliography and references
 │
 ├── Planning/                              # Project planning and management resources
-│   ├── Gantt_Chart.png                    # 12-week project timeline
+│   ├── Gantt_Chart.png                    # 12-week research timeline
 │   └── trello_link.pdf                    # Project management board reference
 │
-└── Research_Evidence/                     # Supporting research materials
-    ├── Literature_Review.xlsx             # Summary of reviewed literature
-    ├── Method_Flow_Chart.png              # Proposed research methodology diagram
-    └── Review_Paper_Notes.pdf             # Notes from key research papers
+├── Research_Evidence/                     # Supporting research materials
+│   ├── Literature_Review.xlsx             # Summary of reviewed literature
+│   ├── Method_Flow_Chart.png              # Proposed methodology workflow
+│   └── Review_Paper_Notes.pdf              # Notes from key research papers
+│
+└── README.md                              # Project overview and repository documentation
 ```
 ## Tools
 
