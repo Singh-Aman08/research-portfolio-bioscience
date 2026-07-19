@@ -82,3 +82,25 @@ This research portfolio presents a proposed framework for developing a robust an
 The proposed methodology aims to address these challenges by combining rigorous preprocessing strategies, interpretable multi-omics integration methods, machine learning and deep learning models, explainable AI techniques, and robust validation frameworks. By balancing predictive performance with biological transparency and generalisability, the framework provides a foundation for developing more reliable computational approaches for precision medicine.
 
 This repository represents a research proposal and planned methodology developed as part of a structured research project. Future work will involve implementing the proposed framework on real pan-cancer multi-omics datasets, evaluating model performance, and investigating biologically meaningful biomarkers through computational and pathway-level analysis.
+
+## Repository Structure
+
+The repository is organised to include the research proposal, documentation, planning resources, and supporting evidence developed throughout the project.
+
+```text
+├── README.md                              # Project overview and documentation
+├── SEMTM0045_Theme3_Topic1_fp25098.pdf    # Final research portfolio submission
+│
+├── LaTeX_Source/                          # LaTeX files used for report preparation
+│   ├── IEEEtran.cls                       # IEEE document class file
+│   ├── main.tex                           # Main LaTeX document
+│   └── references.bib                     # Bibliography and references
+│
+├── Planning/                              # Project planning and management resources
+│   ├── Gantt_Chart.png                    # 12-week project timeline
+│   └── trello_link.pdf                    # Project management board reference
+│
+└── Research_Evidence/                     # Supporting research materials
+    ├── Literature_Review.xlsx             # Summary of reviewed literature
+    ├── Method_Flow_Chart.png              # Proposed research methodology diagram
+    └── Review_Paper_Notes.pdf             # Notes from key research papers
