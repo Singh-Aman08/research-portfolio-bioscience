@@ -12,7 +12,7 @@ This repository represents a research proposal and planned methodology; the prop
 
 ---
 
-## Research Objectives
+## Objectives
 
 The key objectives of this research project are:
 
