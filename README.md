@@ -89,9 +89,9 @@ The repository is organised to include the research proposal, documentation, pla
 
 ## Repository Structure
 
+## Repository Structure
+
 ```text
-├── research_portfolio.pdf                 # Final research portfolio submission
-│
 ├── LaTeX_Source/                          # LaTeX files used for report preparation
 │   ├── IEEEtran.cls                       # IEEE document class file
 │   ├── main.tex                           # Main LaTeX document
@@ -105,6 +105,8 @@ The repository is organised to include the research proposal, documentation, pla
 │   ├── Literature_Review.xlsx             # Summary of reviewed literature
 │   ├── Method_Flow_Chart.png              # Proposed methodology workflow
 │   └── Review_Paper_Notes.pdf              # Notes from key research papers
+│
+├── research_portfolio.pdf                 # Final research portfolio submission
 │
 └── README.md                              # Project overview and repository documentation
 ```
